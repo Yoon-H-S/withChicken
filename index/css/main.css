@@ -1,0 +1,16 @@
+main {
+    display: block;
+    position: relative;
+    min-height: 600px;
+    z-index: 1;
+    margin-bottom: 80px;
+}
+
+.main_inner {
+    margin: auto; /*마진 자동적용*/
+    width: 1100px;
+}
+
+
+
+

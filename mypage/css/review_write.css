@@ -1,0 +1,207 @@
+body {
+    font-family: Pretendard;
+}
+a {
+    text-decoration: none; /*a태그의 글자속성 삭제*/
+    color: #333333; /*폰트 색상*/
+}
+ul, li{
+    list-style-type: none;
+    padding: 0px;
+}
+#h2 {
+    text-align: center;
+}
+#title {
+    display: flex;
+    align-items: center;
+}
+#title_text {
+    width: 200px;
+    height: 30px;
+    margin: 0px;
+    display: flex;
+    border: 1px solid #d5d5d5;
+}
+.method {
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+.title {
+    display: flex;
+    width: 100px;
+    height: 70px;
+    align-items: center;
+}
+.input_read {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 90%;
+    width: 90%;
+    cursor: pointer;
+}
+.method_in {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+}
+.method_select {
+    display: flex;
+    padding: 0px 15px;
+    width: 370px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.method_list {
+    position: absolute;
+    text-align: left;
+    border: 1px solid #888888;
+    background-color: white;
+    width: 400px;
+    font-size: 16px;
+    display: none;
+}
+.list_ul {
+    margin: 0px;
+}
+.list_ul li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #d5d5d5;
+}
+.list_ul li a {
+    display: block;
+    padding: 10px 15px;
+    width: 370px;
+}
+.list_ul li a p {
+    margin: 5px 0px;
+}
+.list_ul li:hover {
+    background-color: #f1f1f1;
+}
+.read {
+    border: none;
+    outline: none;
+    width: 190px;
+    height: 95%;
+    padding-left: 10px;
+    font-size: 14px;
+}
+#content_text {
+    width: 600px;
+    height: 150px;
+    border: 1px solid #d5d5d5;
+    margin-top: 10px;
+}
+#content textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 590px;
+    height: 140px;
+    padding: 5px;
+    font-family: Pretendard;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+}
+#write {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #2E954E;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Pretendard;
+    cursor: pointer;
+}
+#close {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+    background-color: #fafafa;
+    border-radius: 5px;
+    color: #333333;
+    font-family: Pretendard;
+    margin-left: 30px;
+    cursor: pointer;
+}
+.star {
+    position: relative;
+    font-size: 2rem;
+    color: #ddd;
+}
+
+.star input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.star span {
+    width: 0;
+    position: absolute; 
+    left: 0;
+    color: #2e954f;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.in_file {
+    display: flex;
+    height: 30px;
+    align-items: center;
+}
+
+.in_file input {
+    display: none;
+}
+
+.files {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 25px;
+    border: 1px solid #d5d5d5;
+    color: #444444;
+}
+
+.tr_plus {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.sub_title1 {
+    display: flex;
+    width: 100px;
+    height: 40px;
+    align-items: center;
+}
+
+#file_list {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+}
+
+.filebox p {
+    font-size: 14px;
+    margin: 5px 0px 0px 5px;
+    display: inline-block;
+}
+
+.rule {
+    font-size: 14px;
+    width: 120px;
+}

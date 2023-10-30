@@ -1,0 +1,44 @@
+.recommend_prod {
+    width: 1000px;
+    margin: 60px auto;
+}
+
+.recom_prod_title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.recom_prod_body {
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: 10px auto;
+}
+
+.recom_prod_container {
+    height: 100%;
+}
+
+.recom_img {
+    width: 160px;
+    height: 160px;
+}
+
+.recommend_prod_name {
+    margin-top:5px;
+    font-size:16px;
+    width: 160px;
+    height: 32px;
+}
+
+.recommend_prod_price {
+    margin-top:10px;
+    font-size:16px;
+    font-weight: bold;
+}
+
+.won {
+    font-size: 14px;
+    font-weight: normal;
+}

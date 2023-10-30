@@ -1,0 +1,63 @@
+﻿footer {
+    background: #f8f8f8;
+    height: 180px;
+    bottom: 0px;
+    min-width: 1300px;
+}
+
+.footer_inner {
+    width: 1100px; /*가로 크기*/
+    height: 100%;
+    margin: auto; /*마진 자동적용*/
+    display: block;
+    position: relative; /*일반적인 문서흐름으로 배치*/
+}
+
+.footer_menu {
+    text-align:center;
+    border-bottom: solid 2px #f1f1f1;
+    border-top:solid 2px #f1f1f1;
+    padding: 10px 0px;
+}
+
+.foot_me_text {
+    font-size: 14px; /*폰트 크기*/
+    margin: 0px 20px;
+    color: #888; /*폰트 색상*/
+}
+
+.footer_info {
+    display: flex;
+    align-items: center;
+    height: 135px;
+}
+
+.foot_logo {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot_logo_img{
+    position: relative;
+    margin-right: 50px;
+}
+
+.com { 
+    font-size: 16px;
+    font-weight: bold;
+    color: #444444;
+    padding-right: 30px;
+}
+
+.com_info {
+    flex: 5;
+    padding-left: 60px;
+    border-left: 2px solid #f1f1f1;
+    color: #888888;
+    font-size: 12px;
+}
+
+
+

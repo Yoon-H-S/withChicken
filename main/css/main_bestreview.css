@@ -1,0 +1,66 @@
+.main_be_rev {
+    display: block;
+}
+
+.main_be_rev h2 > span {
+    font-size: 14px;
+    font-weight: lighter;
+    margin-left: 15px;
+    color: #888888;
+}
+
+.best_review {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  #f1f1f1;
+}
+
+.rev_info {
+    flex: 8.5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.be_re_prod {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.re_grade > img {
+    width: 90px;
+    height: 18px;
+}
+
+.good_count {
+    flex: 15%;
+    display: flex;
+    font-size: 16px;
+    justify-content: end;
+    color: #444444;
+    margin-bottom: 10px;
+}
+
+.good_count img {
+    width: 16px;
+    height: 16px;
+    margin-right: 2px;
+}
+
+.be_re_write {
+    flex: 100%;
+    font-size: 14px;
+    height: 70px;
+}
+
+.go_prod {
+    flex: 100%;
+    text-align: right;
+}
+
+.rev_img {
+    flex: 1.5;
+    height: 118px;
+    margin-right: 10px;
+}

@@ -1,0 +1,107 @@
+.page_name {
+    border-bottom: 1px solid #dddddd;
+    height: 60px;
+}
+
+.page_name h2 {
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+.admin_table {
+    margin-top: 50px;
+}
+
+.admin_table > table {
+    border-collapse:collapse;
+    width:900px;
+    margin: auto;
+    font-size:20px;
+}
+
+table, td, th {
+    border:1px solid #d5d5d5;
+}
+
+.table_title {
+    height: 30px;
+    background-color: #f1f1f1;
+    color: #333333;
+}
+
+.col1 {
+    height: 20px;
+    text-align: center;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+.admin_table_02 {
+    margin-top: 70px;
+}
+
+.admin_table_02 > table {
+    border-collapse:collapse;
+    width:400px;
+    margin: auto;
+    font-size:20px;
+}
+
+.col2 {
+    height:70px;
+    width: 200px;
+    text-align: center;
+    color: #333333;
+}
+
+.col3 {
+    height:70px;
+    width: 190px;
+    text-align: right;
+    padding-right: 10px;
+    color: #333333;
+    font-weight: bold;
+}
+
+.sub {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.item_and_Notice {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 600px;
+    margin: 60px auto;
+}
+
+.item_join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    background-color: #2e954f;
+    border-radius: 5px;
+    font-size:20px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+
+.notice_join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 200px;
+    border:1px solid #2e954f;
+    border-radius: 5px;
+    background-color: white;
+    color: #333333;
+    font-size:20px;
+    font-weight: bold;
+    cursor: pointer;
+}

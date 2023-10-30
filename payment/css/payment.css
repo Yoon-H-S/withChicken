@@ -1,0 +1,164 @@
+.page_name {
+    border-bottom: 1px solid #dddddd;
+    height: 60px;
+}
+
+.page_name h2 {
+    margin: 0px;
+    padding: 20px 0px 0px 0px;
+}
+
+#card, #deposit, #simple {
+    display: none;
+}
+
+.total_pay {
+    display: flex;
+    align-items: center;   
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d5d5d5;
+    margin: 40px 40px 20px 40px;
+}
+
+.total_price {
+    text-align: center;
+    width: 150px;
+    font-size:18px;
+}
+
+.price {
+    margin: 5px 0px 0px 0px;
+    font-weight:bold;
+    font-size: 26px;
+}
+
+.plus, .equal, .minus {
+    text-align: center; 
+    width: 50px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.won {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.select_method {
+    width: 1000px;
+    margin: auto;
+}
+
+.method_container {
+    padding: 20px 0px;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.method {
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+
+.title {
+    display: flex;
+    width: 120px;
+    height: 70px;
+    align-items: center;
+}
+
+.method_input {
+    border: none;
+    outline: none;
+    width: 220px;
+    height: 30px;
+    padding: 0px 5px;
+}
+
+.input_read {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    height: 90%;
+    width: 50%;
+    cursor: pointer;
+}
+
+.method > div {
+    margin: 0px 10px 0px 0px;
+}
+
+.method_in {
+    width: 230px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+}
+
+.method_select {
+    display: flex;
+    padding: 0px 15px;
+    width: 200px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.method_list {
+    position: absolute;
+    overflow-y: scroll;
+    text-align: left;
+    border: 1px solid #888888;
+    background-color: white;
+    width: 230px;
+    max-height: 200px;
+    font-size: 16px;
+    display: none;
+}
+
+.list_ul {
+    margin: 0px;
+}
+
+.list_ul li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #d5d5d5;
+}
+
+.list_ul li a {
+    display: block;
+    padding: 10px 15px;
+    width: 200px;
+}
+
+.list_ul li a p {
+    margin: 5px 0px;
+}
+
+.list_ul li:hover {
+    background-color: #f1f1f1;
+}
+
+.payment_btn {
+    width: 400px;
+    height: 40px;
+    margin: 40px auto;
+    border-radius: 5px;
+}
+
+.payment_btn button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    color: white;
+    background-color: #2E954E;
+    cursor: pointer;
+    border-radius: 5px;
+}

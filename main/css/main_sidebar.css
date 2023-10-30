@@ -1,0 +1,54 @@
+.side_bar {
+    flex: 2;
+    display: block;
+}
+
+.delivery {
+    width: 100%;
+    height: 120px;
+    margin-bottom: 50px;
+}
+
+.main_event {
+    width: 100%;
+    height: 170px;
+    margin-bottom: 50px;
+}
+
+.recent_list {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #f1f1f1;
+    border-radius: 15px;
+}
+
+.recent_list h4 {
+    margin: 15px 0px;
+}
+
+.recent_prod {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.recent_prod img {
+    flex: 2;
+    width: 70px;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.recent_prod span {
+    flex: 8;
+    font-size: 14px;
+    padding: 0px 5px;
+}
+
+.recent_list ul > li {
+    margin: 10px 5px;
+}
+
+.recent_list ul > li:hover {
+    background-color: #f1f1f1;
+}

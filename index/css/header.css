@@ -1,0 +1,192 @@
+body {
+    margin: 0; /*기본 마진 삭제*/
+    font-family: Pretendard;
+    min-width: 1300px;
+}
+
+button, input, textarea {
+    font-family: Pretendard;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 180px; /*세로 크기*/
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.header_inner {
+    width: 1100px; /*가로 크기*/
+    height: 100%;
+    margin: auto; /*마진 자동적용*/
+    display: flex; /*가로정렬*/
+    align-items: center; /*하위요소 수직가운데 정렬*/
+    position: relative; /*일반적인 문서흐름으로 배치*/
+}
+
+
+/*유틸 속성 지정*/
+.util { 
+    position: absolute; /*일반적인 문서흐름 무시*/
+    top: 5px; /*상 0좌표*/
+    right: 0; /*우 0좌표*/
+}
+
+.util_text {
+    font-size: 13px; /*폰트 크기*/
+    margin-left: 5px; /*왼쪽 마진*/
+    color: #888; /*폰트 색상*/
+}
+
+a {
+    text-decoration: none; /*a태그의 글자속성 삭제*/
+    color: #333333; /*폰트 색상*/
+}
+
+
+/*로고 속성 지정*/
+.logo {
+    position: relative;
+    bottom: 10px;
+    width: 180px; /*가로 크기*/
+    height: 52px; /*세로 크기*/
+    margin-right: 120px; /*오른쪽 마진*/
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/*검색창 속성 지정*/
+.field_se {
+    position: relative;
+    bottom: 10px;
+    border: none; /*테투리 삭제*/
+}
+
+.legend_hidden {
+    position: absolute; /*문서흐름 무시*/
+    height: 0px; /*크기 0*/
+    width: 0px;
+    overflow: hidden; /*숨김*/
+    white-space: nowrap;
+}
+.search {
+    width: 450px;
+    height: 40px;
+    border: 2px solid #2E954E;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+}
+
+.search input {
+    flex: 8.5;
+    height: 36px;
+    padding-left: 16px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-radius: 40px;
+}
+
+.search button {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 12px;
+    border: none;
+    outline: none;
+    background: none;
+}
+
+.gnb_wrap {
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    font-size: 15px;
+    font-weight: bold;
+    border-top: 1px solid #f1f1f1;
+    z-index: 2;
+}
+
+.categori {
+    width: 17%;
+    height: 100%;
+}
+
+.cate_btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    margin: 12.5px 0px;
+    border-right: 1px solid #f1f1f1;
+}
+
+.categori:hover {
+    background-color: #2E954E;
+}
+
+.categori:hover .cate_btn {
+    color: white;
+}
+
+.all_categori {
+    display: none;
+}
+
+.categori:hover .all_categori { 
+    display: block;
+    height: 300px;
+    text-align: center;
+    border: 1px solid #2E954E;
+    background-color: white;
+}
+
+.cate_dep {
+    margin: 10px 0px;
+}
+.cate_dep li {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    align-items: center;
+}
+
+.cate_dep li a {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+.cate_dep li:hover {
+    background-color: #f1f1f1;
+}
+
+ul, li{
+    list-style-type: none;
+    padding: 0px;
+}
+
+.gnb {
+    width: 83%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.gnb ul > li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.gnb ul > li > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+

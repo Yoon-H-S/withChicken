@@ -1,0 +1,48 @@
+.greeting {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 120px;
+    color: #333333;
+}
+
+.login {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.field_log {
+    text-align: center;
+    display: block;
+    border: none;
+    width: 600px;
+    margin: auto;
+}
+
+.field_log div {
+    width: 450px;
+    height: 50px;
+    margin: 10px auto;
+    border: 1px solid #d5d5d5;
+}
+
+.field_log div > input {
+    height: 40px;
+    padding: 5px 10px;
+    width: 430px;
+    border: none;
+    outline: none;
+}
+
+.field_log button {
+    width: 450px;
+    height: 50px;
+    margin: 30px 10px 5px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    background-color: #2E954E;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}

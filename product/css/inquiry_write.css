@@ -1,0 +1,144 @@
+body {
+    font-family: Pretendard;
+}
+a {
+    text-decoration: none; /*a태그의 글자속성 삭제*/
+    color: #333333; /*폰트 색상*/
+}
+ul, li{
+    list-style-type: none;
+    padding: 0px;
+}
+#h2 {
+    text-align: center;
+}
+#title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#title_text {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+    margin: 0px;
+    display: flex;
+}
+#title_text input {
+    display: flex;
+    align-items: center;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 90%;
+    width: 380px;
+    padding: 0px 10px;
+}
+.method {
+    display: flex;
+    align-items: center;
+    color: #333333;
+}
+.title {
+    display: flex;
+    width: 100px;
+    height: 70px;
+    align-items: center;
+    color: black !important;
+}
+.input_read {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    height: 90%;
+    width: 90%;
+    cursor: pointer;
+}
+.method_in {
+    width: 400px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+}
+.method_select {
+    display: flex;
+    padding: 0px 15px;
+    width: 370px;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.method_list {
+    position: absolute;
+    text-align: left;
+    border: 1px solid #888888;
+    background-color: white;
+    width: 400px;
+    font-size: 16px;
+    display: none;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+.list_ul {
+    margin: 0px;
+}
+.list_ul li {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    border-bottom: 1px solid #d5d5d5;
+}
+.list_ul li a {
+    display: block;
+    padding: 10px 15px;
+    width: 370px;
+}
+.list_ul li a p {
+    margin: 5px 0px;
+}
+.list_ul li:hover {
+    background-color: #f1f1f1;
+}
+#content {
+    margin-bottom: 30px;
+}
+#content_text {
+    width: 600px;
+    height: 150px;
+    border: 1px solid #d5d5d5;
+    margin-top: 10px;
+}
+#content textarea {
+    border: none;
+    outline: none;
+    resize: none;
+    width: 590px;
+    height: 140px;
+    padding: 5px;
+    font-family: Pretendard;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+}
+#write {
+    width: 70px;
+    height: 30px;
+    border: none;
+    background-color: #2E954E;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-family: Pretendard;
+    cursor: pointer;
+}
+#close {
+    width: 70px;
+    height: 30px;
+    border: 1px solid #d5d5d5;
+    background-color: #fafafa;
+    border-radius: 5px;
+    color: #333333;
+    font-family: Pretendard;
+    margin-left: 30px;
+    cursor: pointer;
+}
